@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Tax</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate Tax</h1>
+        <form id="taxForm" class="form">
+            <div class="form-group">
+                <label for="income">Annual Income (USD):</label>
+                <input type="number" id="income" name="income" placeholder="Enter your income" required>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dependents">Number of Dependents:</label>
+                <input type="number" id="dependents" name="dependents" placeholder="Enter number of dependents" required>
+            </div>
+
+            <button type="submit" class="btn">Calculate Tax</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+</body>
+</html>
